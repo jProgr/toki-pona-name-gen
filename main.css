@@ -1,0 +1,19 @@
+body { font-family: 'Open Sans', sans-serif; }
+
+#main
+{
+    margin: 20vmin auto;
+    background-color: red;
+    text-align: right;
+    width: 15em;
+}
+
+#main h1
+{
+    margin: .1em;
+}
+
+#new-name
+{
+    float: right;
+}

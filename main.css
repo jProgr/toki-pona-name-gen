@@ -1,3 +1,5 @@
+/* General */
+
 body
 {
     font-family: 'Open Sans', sans-serif;
@@ -6,10 +8,7 @@ body
     margin: 0;
 }
 
-p
-{
-    margin: 0;
-}
+p { margin: 0; }
 
 a
 {
@@ -25,23 +24,19 @@ a:visited { text-decoration: none; }
     margin-left: auto;
 }
 
+/* Header */
+
 header
 {
     margin-top: 8vmin;
     text-align: center;
 }
-
 header h1, header p.subtitle { margin: 0; }
 
-h1.title, i.title
-{
-    font-size: 4vw;
-}
+h1.title, i.title { font-size: 4vw; }
+p.subtitle { font-size: 1.91vw; }
 
-p.subtitle
-{
-    font-size: 1.91vw;
-}
+/* Main */
 
 #main
 {
@@ -76,9 +71,7 @@ button#new-name
 /* Footer */
 
 footer
-{
-    bottom: 0;
-}
+{ bottom: 0; }
 
 footer div.container
 {

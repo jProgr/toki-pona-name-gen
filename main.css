@@ -11,6 +11,14 @@ p
     margin: 0;
 }
 
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover, a:active { text-decoration: underline; }
+a:visited { text-decoration: none; }
+
 .container
 {
     margin-right: auto;
@@ -65,12 +73,36 @@ button#new-name
     font-size: 2vw;
 }
 
+/* Footer */
+
 footer
 {
-    background-color: #FFAF98;
+    bottom: 0;
 }
 
 footer div.container
 {
-
+    padding-top: 3vw;
+    text-align: center;
 }
+
+p.description
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 65vw;
+    font-size: .9vmax;
+    padding-bottom: 1vw;
+}
+
+ul.footer-links
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 1vw;
+    font-size: 1.1vmax;
+}
+ul.footer-links li { display: inline; }
+ul.footer-links li::after { content: " | "; }
+ul.footer-links li:last-child::after { content: none; }

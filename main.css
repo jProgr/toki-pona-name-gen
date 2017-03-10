@@ -1,19 +1,52 @@
-body { font-family: 'Open Sans', sans-serif; }
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2B5E79;
+    color: snow;
+}
+
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header
+{
+    margin-top: 8vmin;
+    text-align: center;
+}
+
+header h1, header p.subtitle { margin: 0; }
+
+
+h1.title, i.title
+{
+    font-size: 4vw;
+}
+
+p.subtitle
+{
+    font-size: 1.91vw;
+}
 
 #main
 {
-    margin: 20vmin auto;
-    background-color: red;
-    text-align: right;
-    width: 15em;
+    background-color: #CA6B84;
 }
 
-#main h1
+#main div.container
 {
-    margin: .1em;
+    width: 10em;
+    text-align: center;
 }
 
-#new-name
+footer
 {
-    float: right;
+    background-color: #FFAF98;
+}
+
+footer div.container
+{
+
 }

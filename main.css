@@ -3,6 +3,12 @@ body
     font-family: 'Open Sans', sans-serif;
     background-color: #2B5E79;
     color: snow;
+    margin: 0;
+}
+
+p
+{
+    margin: 0;
 }
 
 .container
@@ -19,7 +25,6 @@ header
 
 header h1, header p.subtitle { margin: 0; }
 
-
 h1.title, i.title
 {
     font-size: 4vw;
@@ -33,12 +38,31 @@ p.subtitle
 #main
 {
     background-color: #CA6B84;
+    width: 100%;
+    margin-top: 10vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    font-size: 2.5vw;
 }
 
 #main div.container
 {
-    width: 10em;
+    width: 8em;
     text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border: solid #2B5E79 1px;
+    border-radius: 2px;
+    background-color: rgba(43, 94, 121, .1);
+}
+
+button#new-name
+{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: snow;
+    font-size: 2vw;
 }
 
 footer

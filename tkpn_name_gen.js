@@ -81,6 +81,12 @@ function generate_name() {
   return name_flatten;
 }
 
-const name = document.getElementById("name");
-name.innerHTML = "jan " + generate_name();
-document.getElementById("new-name").addEventListener("click", () => { name.innerHTML = "jan " + generate_name(); });
+document.onreadystatechange = function ()
+{
+  if (document.readyState === "complete")
+  {
+    const name = document.getElementById("name");
+    name.innerHTML = "jan " + generate_name();
+    document.getElementById("new-name").addEventListener("click", () => { name.innerHTML = "jan " + generate_name(); });
+  }
+}

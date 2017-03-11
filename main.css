@@ -50,13 +50,15 @@ p.subtitle { font-size: 1.91vw; }
 
 #main div.container
 {
-    width: 8em;
+    width: 10em;
     text-align: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    border: solid #2B5E79 1px;
-    border-radius: 2px;
-    background-color: rgba(43, 94, 121, .1);
+    /*border-top: solid #2B5E79 1px;*/
+    /*border-bottom: solid snow 1px;*/
+    border-radius: 1px;
+    /*background-color: rgba(43, 94, 121, .1);*/
+    background-color: rgba(255, 255, 255, .05);
 }
 
 button#new-name

@@ -87,6 +87,6 @@ document.onreadystatechange = function ()
   {
     const name = document.getElementById("name");
     name.innerHTML = "jan " + generate_name();
-    document.getElementById("new-name").addEventListener("click", () => { name.innerHTML = "jan " + generate_name(); });
+    document.getElementById("new-name").addEventListener("click", function() { name.innerHTML = "jan " + generate_name(); });
   }
 }

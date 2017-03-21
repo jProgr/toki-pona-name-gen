@@ -121,7 +121,7 @@ ul.footer-links li:last-child::after { content: none; }
     button#new-name{ font-size: 3vw; }
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 767px)
 {
     /* Header */
 
@@ -132,23 +132,23 @@ ul.footer-links li:last-child::after { content: none; }
 
     /* Main */
 
-    #main
+    #main { font-size: 14vw; }
+
+    #main div.container
     {
-        margin-top: 2vh;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        font-size: 5vw;
+        width: 95%;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        background-color: transparent;
     }
 
-    button#new-name{ font-size: 5vw; }
+    button#new-name{ font-size: 13vw; }
 
     /* Footer */
 
-    p.description
-    {
-        width: 90vw;
-        font-size: 1vmax;
-    }
+    p.description { display: none; }
 
-    ul.footer-links { font-size: 1.2vmax; }
+    ul.footer-links { font-size: 4vw; }
+    ul.footer-links li { display: block; }
+    ul.footer-links li::after { content: none; }
 }
